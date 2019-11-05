@@ -6,11 +6,14 @@ git add 통해서 필요한 파일을 git 관리에 등록 -> 불필요한 파�
   4) 상태 저장 (commit) - 내 로컬에만 저장되는 상태
   5) 상태 업로드 (push) - 현재 최종 커밋 상태를 remote 서버에 업로드
   
-  참고)
-  Windows 환겨에서 git 명령 문자열은 꼭 쌍따옴표(" ")를 사용해야 함
-  Linux의 경우 숨김파일(.)은 git add * 대상에서 제외될 수 있으니 주의
+참고)
+Windows 환겨에서 git 명령 문자열은 꼭 쌍따옴표(" ")를 사용해야 함
+Linux의 경우 숨김파일(.)은 git add * 대상에서 제외될 수 있으니 주의
   
+단축키)
+WebStorm에서 add + commit 한번에 수행 (Ctrl + K)
   
 브랜치 확인 git branch
 브랜치 추가 git branch branch_name
 브랜치 전환 git checkout branch_name 
+브랜치에서 수정사항을 마스터에 병합 git merge branch_name -> 수행한 결과는 커밋한 것과 같음
