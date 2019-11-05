@@ -9,4 +9,8 @@ git add 통해서 필요한 파일을 git 관리에 등록 -> 불필요한 파�
   참고)
   Windows 환겨에서 git 명령 문자열은 꼭 쌍따옴표(" ")를 사용해야 함
   Linux의 경우 숨김파일(.)은 git add * 대상에서 제외될 수 있으니 주의
-   
+  
+  
+브랜치 확인 git branch
+브랜치 추가 git branch branch_name
+브랜치 전환 git checkout branch_name 
