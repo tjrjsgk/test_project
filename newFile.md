@@ -29,5 +29,5 @@
 - 브랜치에서 수정사항을 마스터에 병합 git merge branch_name -> 수행한 결과는 커밋한 것과 같음
 
 # 원격 서버에 올리기
-- git remote add origin <원격 저장소 URL>  
-- git push origin master
+- 최초 등록 git remote add origin <원격 저장소 URL>  
+- 올리기 git push origin master
