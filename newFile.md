@@ -4,11 +4,11 @@
 # 파일 서버에 올리기 (push)
 - git add 통해서 필요한 파일을 git 관리에 등록 -> 불필요한 파일은 미등록(.gitignore에서 관리)  
 
-1) 파일 등록 (add)  
-2) 수정된 상태 (status)  
-3) 수정된 상태 다시 등록 (add)  
-4) 상태 저장 (commit) - 내 로컬에만 저장되는 상태  
-5) 상태 업로드 (push) - 현재 최종 커밋 상태를 remote 서버에 업로드  
+1. 파일 등록 (add)  
+2. 수정된 상태 (status)  
+3. 수정된 상태 다시 등록 (add)  
+4. 상태 저장 (commit) - 내 로컬에만 저장되는 상태  
+5. 상태 업로드 (push) - 현재 최종 커밋 상태를 remote 서버에 업로드  
 
 # 파일 서버에서 가져오기 (pull)
 - git pull  
@@ -38,13 +38,13 @@
 - 일반적인 명령 순서를 지키지 않고 Git tool 내에서 특정 시점으로 강제 전환하면 복구 불가능
 
 # Tip
-- 다음 경고에 대한 해결책([link](https://blog.jaeyoon.io/2018/01/git-crlf.html))  
+- 다음 경고에 대한 해결책 ([link](https://blog.jaeyoon.io/2018/01/git-crlf.html))  
   - git config --global core.autocrlf true   
 
 ```
 warning: CRLF will be replaced by LF in some/file.file.
 ```
-- 원격 저장소 파일 지우기 ([line](https://jjunii486.tistory.com/55))  
-  - git rm -r --cached file&dir_name  
-  - git commit -m "remove old files"  
-  - git push origin master  
+- 원격 저장소 파일 지우기 ([link](https://jjunii486.tistory.com/55))  
+  1. git rm -r --cached file&dir_name  
+  2. git commit -m "remove old files"  
+  3. git push origin master  
